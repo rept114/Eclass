@@ -7,11 +7,14 @@
 //
 
 import UIKit
+import AVFoundation
 
 class ViewController: UIViewController {
     @IBOutlet weak var Name: UILabel!
     
     @IBOutlet weak var LabelTitle: UILabel!
+    var reproductor : AVAudioPlayer?
+    var reproductorfondo : AVAudioPlayer?
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
