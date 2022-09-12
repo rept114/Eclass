@@ -34,21 +34,21 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                             </imageView>
                             <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="XwB-Me-JhC">
-                                <rect key="frame" x="20" y="346" width="150" height="122"/>
+                                <rect key="frame" x="20" y="346" width="150.33333333333334" height="122.33333333333331"/>
                                 <gestureRecognizers/>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="eER-dN-xOD" appends="YES" id="ahx-vK-81h"/>
                                 </connections>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Rdp-2h-7s9">
-                                <rect key="frame" x="205" y="488.00000000000006" width="150" height="121.66666666666669"/>
+                                <rect key="frame" x="204.66666666666663" y="488.33333333333331" width="150.33333333333337" height="121.33333333333331"/>
                                 <gestureRecognizers/>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="N99-5O-etb" appends="YES" id="dVR-85-34g"/>
                                 </connections>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="6Kc-hX-ycK">
-                                <rect key="frame" x="205" y="346" width="150" height="122"/>
+                                <rect key="frame" x="204.66666666666663" y="346" width="150.33333333333337" height="122.33333333333331"/>
                                 <gestureRecognizers/>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="6lL-gM-mhn" appends="YES" id="wsL-1c-18O"/>
@@ -78,7 +78,7 @@
                                 </state>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Jed-Cg-wKj">
-                                <rect key="frame" x="20" y="488.00000000000006" width="150" height="121.66666666666669"/>
+                                <rect key="frame" x="20" y="488.33333333333331" width="150.33333333333334" height="121.33333333333331"/>
                                 <gestureRecognizers/>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="Bxf-Ou-E2v" appends="YES" id="baR-Yx-FgN"/>
@@ -122,6 +122,9 @@
                             </constraint>
                             <constraint firstItem="Jed-Cg-wKj" firstAttribute="height" secondItem="UdF-6i-tYH" secondAttribute="height" multiplier="0.15" id="IAS-yj-SEH"/>
                             <constraint firstItem="6Kc-hX-ycK" firstAttribute="height" secondItem="UdF-6i-tYH" secondAttribute="height" multiplier="0.15" id="IMh-cW-06k"/>
+                            <constraint firstItem="syQ-rX-kl5" firstAttribute="leading" secondItem="XwB-Me-JhC" secondAttribute="trailing" constant="85.333333333333371" id="IiM-XY-fgH">
+                                <variation key="heightClass=compact" constant="20"/>
+                            </constraint>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="syQ-rX-kl5" secondAttribute="trailing" constant="100" id="JWs-v7-0kK">
                                 <variation key="heightClass=compact" constant="250"/>
                             </constraint>
@@ -133,7 +136,7 @@
                             <constraint firstItem="t1l-1Z-kvH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="KVk-KB-xN1"/>
                             <constraint firstItem="XwB-Me-JhC" firstAttribute="height" secondItem="UdF-6i-tYH" secondAttribute="height" multiplier="0.15" id="Ngc-zi-aoC"/>
                             <constraint firstItem="iPo-g1-y3V" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="O9f-cy-o8Y"/>
-                            <constraint firstItem="syQ-rX-kl5" firstAttribute="height" secondItem="UdF-6i-tYH" secondAttribute="height" multiplier="0.3" id="OBf-KD-vOe"/>
+                            <constraint firstItem="syQ-rX-kl5" firstAttribute="height" secondItem="UdF-6i-tYH" secondAttribute="height" multiplier="0.5" id="OBf-KD-vOe"/>
                             <constraint firstItem="Jed-Cg-wKj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="PFZ-ur-cI6"/>
                             <constraint firstItem="6Kc-hX-ycK" firstAttribute="top" secondItem="iPo-g1-y3V" secondAttribute="bottom" constant="60" id="Q2H-zo-x37"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="p2X-fA-MFk" secondAttribute="bottom" constant="10" id="RDk-Mb-iPT"/>
@@ -141,6 +144,9 @@
                             <constraint firstItem="XwB-Me-JhC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="UzA-6f-Nbs"/>
                             <constraint firstItem="Rdp-2h-7s9" firstAttribute="height" secondItem="UdF-6i-tYH" secondAttribute="height" multiplier="0.15" id="VF5-Vw-eMl"/>
                             <constraint firstItem="Jed-Cg-wKj" firstAttribute="height" secondItem="UdF-6i-tYH" secondAttribute="height" multiplier="0.23" id="Vdt-8y-yLr"/>
+                            <constraint firstItem="6Kc-hX-ycK" firstAttribute="leading" secondItem="syQ-rX-kl5" secondAttribute="trailing" constant="85.333333333333371" id="Vsd-Uc-jSB">
+                                <variation key="heightClass=compact" constant="20"/>
+                            </constraint>
                             <constraint firstItem="t1l-1Z-kvH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="WGs-k6-6PR"/>
                             <constraint firstItem="Jed-Cg-wKj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Xs9-fP-lJJ"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="t1l-1Z-kvH" secondAttribute="trailing" constant="8" id="XtS-KX-fjr"/>
@@ -153,7 +159,9 @@
                             <constraint firstItem="Jed-Cg-wKj" firstAttribute="top" secondItem="XwB-Me-JhC" secondAttribute="bottom" constant="20" id="buC-NY-qN0"/>
                             <constraint firstItem="upM-0H-bvH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="czd-Au-wwq"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="iPo-g1-y3V" secondAttribute="trailing" constant="8" id="dpd-wC-H6S"/>
-                            <constraint firstItem="iPo-g1-y3V" firstAttribute="top" secondItem="syQ-rX-kl5" secondAttribute="bottom" constant="7.6666666666666572" id="fCQ-a6-Hah"/>
+                            <constraint firstItem="iPo-g1-y3V" firstAttribute="top" secondItem="syQ-rX-kl5" secondAttribute="bottom" constant="7.6666666666666572" id="fCQ-a6-Hah">
+                                <variation key="heightClass=compact" constant="8"/>
+                            </constraint>
                             <constraint firstItem="XwB-Me-JhC" firstAttribute="height" secondItem="UdF-6i-tYH" secondAttribute="height" multiplier="0.23" id="fTa-cy-Ykm"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="6Kc-hX-ycK" secondAttribute="trailing" constant="20" id="ftN-oN-CHt">
                                 <variation key="heightClass=compact" constant="20"/>
@@ -209,10 +217,12 @@
                                 <exclude reference="Vdt-8y-yLr"/>
                                 <exclude reference="2gY-Bt-CSJ"/>
                                 <exclude reference="BPl-Hf-EXk"/>
+                                <exclude reference="IiM-XY-fgH"/>
                                 <exclude reference="OBf-KD-vOe"/>
                                 <exclude reference="iyc-Bc-pEB"/>
                                 <exclude reference="0QQ-Fq-k90"/>
                                 <exclude reference="HRf-UD-c3h"/>
+                                <exclude reference="Vsd-Uc-jSB"/>
                                 <exclude reference="nvn-H5-Hjl"/>
                                 <exclude reference="sRn-r4-wVv"/>
                                 <exclude reference="bX5-ht-nvT"/>
@@ -227,7 +237,7 @@
                                 <include reference="6t2-vW-28u"/>
                                 <exclude reference="9ic-KF-1jp"/>
                                 <exclude reference="EIN-Sl-MFk"/>
-                                <include reference="JWs-v7-0kK"/>
+                                <exclude reference="JWs-v7-0kK"/>
                                 <exclude reference="KKi-mP-J7T"/>
                                 <exclude reference="RDk-Mb-iPT"/>
                                 <exclude reference="UOD-aW-nYl"/>
@@ -267,7 +277,8 @@
                                 <include reference="2gY-Bt-CSJ"/>
                                 <exclude reference="6nr-Ct-Uqb"/>
                                 <exclude reference="95o-JB-tYi"/>
-                                <include reference="BPl-Hf-EXk"/>
+                                <exclude reference="BPl-Hf-EXk"/>
+                                <include reference="IiM-XY-fgH"/>
                                 <include reference="OBf-KD-vOe"/>
                                 <exclude reference="j9J-2L-QnO"/>
                                 <exclude reference="czd-Au-wwq"/>
@@ -277,6 +288,7 @@
                                 <exclude reference="IMh-cW-06k"/>
                                 <exclude reference="K11-PJ-0oR"/>
                                 <exclude reference="Q2H-zo-x37"/>
+                                <include reference="Vsd-Uc-jSB"/>
                                 <exclude reference="nvn-H5-Hjl"/>
                                 <include reference="sRn-r4-wVv"/>
                                 <exclude reference="54h-R5-SB4"/>
