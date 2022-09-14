@@ -39,13 +39,13 @@ class ViewController: UIViewController {
             print(error.localizedDescription)
         }
         //obtener url del archivo de audio
-        url1 = Bundle.main.url(forResource: "", withExtension: "mp3")
-        url2 = Bundle.main.url(forResource: "", withExtension: "mp3")
-        url3 = Bundle.main.url(forResource: "", withExtension: "mp3")
-        url4 = Bundle.main.url(forResource: "", withExtension: "mp3")
+        url1 = Bundle.main.url(forResource: "Telephone", withExtension: "wav")
+        url2 = Bundle.main.url(forResource: "Orkesta", withExtension: "wav")
+        url3 = Bundle.main.url(forResource: "Keyboard", withExtension: "wav")
+        url4 = Bundle.main.url(forResource: "Trompeta", withExtension: "wav")
         //Inicializar la secuencia de imagenes
         //en este ejemplo del 1 al 5, es en el supuesto de que la secuencia sea 5 imagenes
-        for i in 1...5{
+        /*for i in 1...5{
             let imagen1 = UIImage(named:"nombre_de_la_imagen\(i)")
             secuenciaImage1.append(imagen1!)
             let imagen2 = UIImage(named:"nombre_de_la_imagen\(i)")
@@ -70,10 +70,11 @@ class ViewController: UIViewController {
         image2.startAnimating()
         Image3.startAnimating()
         Image4.startAnimating()
+ */
     }
 
     @IBAction func DoTapImage1(_ sender: Any) {
-        LabelTitle.text = "Label1"
+        LabelTitle.text = "Angry"
         do {
             reproductor = try AVAudioPlayer(contentsOf: url1!, fileTypeHint: AVFileType.mp3.rawValue)
             reproductor?.play()
@@ -82,7 +83,7 @@ class ViewController: UIViewController {
         }
     }
     @IBAction func DoTapImage2(_ sender: Any) {
-        LabelTitle.text = "Label2"
+        LabelTitle.text = "Eye"
         do {
             reproductor = try AVAudioPlayer(contentsOf: url2!, fileTypeHint: AVFileType.mp3.rawValue)
             reproductor?.play()
@@ -91,7 +92,7 @@ class ViewController: UIViewController {
         }
     }
     @IBAction func DoTapImage3(_ sender: Any) {
-        LabelTitle.text = "Label3"
+        LabelTitle.text = "Water Bottle"
         do {
             reproductor = try AVAudioPlayer(contentsOf: url3!, fileTypeHint: AVFileType.mp3.rawValue)
             reproductor?.play()

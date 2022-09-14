@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D6E8EFA28D227CA000E0679 /* Telephone.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3D6E8EF928D227CA000E0679 /* Telephone.wav */; };
+		3D6E8EFC28D22865000E0679 /* Keyboard.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3D6E8EFB28D22865000E0679 /* Keyboard.wav */; };
+		3D6E8EFE28D2286F000E0679 /* Orkesta.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3D6E8EFD28D2286F000E0679 /* Orkesta.wav */; };
+		3D6E8F0228D228F5000E0679 /* Trompeta.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3D6E8F0128D228F5000E0679 /* Trompeta.wav */; };
+		3D6E8F0428D22A58000E0679 /* descarga.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6E8F0328D22A58000E0679 /* descarga.png */; };
 		3D9C0E8728C63F4500F36B9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9C0E8628C63F4500F36B9B /* AppDelegate.swift */; };
 		3D9C0E8928C63F4500F36B9B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9C0E8828C63F4500F36B9B /* ViewController.swift */; };
 		3D9C0E8C28C63F4500F36B9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D9C0E8A28C63F4500F36B9B /* Main.storyboard */; };
@@ -29,6 +34,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3D6E8EF928D227CA000E0679 /* Telephone.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Telephone.wav; path = ../../../Downloads/Telephone.wav; sourceTree = "<group>"; };
+		3D6E8EFB28D22865000E0679 /* Keyboard.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Keyboard.wav; path = ../../../Downloads/Keyboard.wav; sourceTree = "<group>"; };
+		3D6E8EFD28D2286F000E0679 /* Orkesta.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Orkesta.wav; path = ../../../Downloads/Orkesta.wav; sourceTree = "<group>"; };
+		3D6E8F0128D228F5000E0679 /* Trompeta.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Trompeta.wav; path = ../../../Downloads/Trompeta.wav; sourceTree = "<group>"; };
+		3D6E8F0328D22A58000E0679 /* descarga.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = descarga.png; path = ../../../Downloads/descarga.png; sourceTree = "<group>"; };
 		3D9C0E8328C63F4500F36B9B /* englishclass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = englishclass.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D9C0E8628C63F4500F36B9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D9C0E8828C63F4500F36B9B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -86,7 +96,12 @@
 				3D9C0EA528C64EA900F36B9B /* airstrike3d.ttf */,
 				3D9C0EA028C64EA800F36B9B /* airstrikeacad.ttf */,
 				3D9C0EA228C64EA800F36B9B /* airstrikeb3d.ttf */,
+				3D6E8EF928D227CA000E0679 /* Telephone.wav */,
+				3D6E8F0328D22A58000E0679 /* descarga.png */,
+				3D6E8EFB28D22865000E0679 /* Keyboard.wav */,
+				3D6E8F0128D228F5000E0679 /* Trompeta.wav */,
 				3D9C0E9D28C64EA700F36B9B /* airstrikebold.ttf */,
+				3D6E8EFD28D2286F000E0679 /* Orkesta.wav */,
 				3D9C0E9B28C64EA600F36B9B /* airstrikebullet.ttf */,
 				3D9C0EA328C64EA800F36B9B /* airstrikechrome.ttf */,
 				3D9C0E9C28C64EA700F36B9B /* airstrikecond.ttf */,
@@ -171,16 +186,21 @@
 				3D9C0EB028C64EA900F36B9B /* airstrikeb3d.ttf in Resources */,
 				3D9C0EAB28C64EA900F36B9B /* airstrikebold.ttf in Resources */,
 				3D9C0E9128C63F5600F36B9B /* LaunchScreen.storyboard in Resources */,
+				3D6E8EFA28D227CA000E0679 /* Telephone.wav in Resources */,
 				3D9C0EB128C64EA900F36B9B /* airstrikechrome.ttf in Resources */,
 				3D9C0E8E28C63F5600F36B9B /* Assets.xcassets in Resources */,
 				3D9C0EAD28C64EA900F36B9B /* airstrike.ttf in Resources */,
 				3D9C0EA828C64EA900F36B9B /* airstrikegrad.ttf in Resources */,
+				3D6E8EFC28D22865000E0679 /* Keyboard.wav in Resources */,
 				3D9C0EB328C64EA900F36B9B /* airstrike3d.ttf in Resources */,
 				3D9C0EA728C64EA900F36B9B /* airstrikeout.ttf in Resources */,
+				3D6E8EFE28D2286F000E0679 /* Orkesta.wav in Resources */,
 				3D9C0EAE28C64EA900F36B9B /* airstrikeacad.ttf in Resources */,
+				3D6E8F0428D22A58000E0679 /* descarga.png in Resources */,
 				3D9C0EAC28C64EA900F36B9B /* airstrikeexpand.ttf in Resources */,
 				3D9C0E8C28C63F4500F36B9B /* Main.storyboard in Resources */,
 				3D9C0EAA28C64EA900F36B9B /* airstrikecond.ttf in Resources */,
+				3D6E8F0228D228F5000E0679 /* Trompeta.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

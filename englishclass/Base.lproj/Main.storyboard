@@ -33,28 +33,28 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="UdF-6i-tYH">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                             </imageView>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="XwB-Me-JhC">
-                                <rect key="frame" x="20" y="346" width="150.33333333333334" height="122.33333333333331"/>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="descarga.png" translatesAutoresizingMaskIntoConstraints="NO" id="XwB-Me-JhC">
+                                <rect key="frame" x="20" y="346" width="150" height="122"/>
                                 <gestureRecognizers/>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="eER-dN-xOD" appends="YES" id="ahx-vK-81h"/>
                                 </connections>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Rdp-2h-7s9">
-                                <rect key="frame" x="204.66666666666663" y="488.33333333333331" width="150.33333333333337" height="121.33333333333331"/>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="descarga.png" translatesAutoresizingMaskIntoConstraints="NO" id="Rdp-2h-7s9">
+                                <rect key="frame" x="205" y="488.00000000000006" width="150" height="121.66666666666669"/>
                                 <gestureRecognizers/>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="N99-5O-etb" appends="YES" id="dVR-85-34g"/>
                                 </connections>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="6Kc-hX-ycK">
-                                <rect key="frame" x="204.66666666666663" y="346" width="150.33333333333337" height="122.33333333333331"/>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="descarga.png" translatesAutoresizingMaskIntoConstraints="NO" id="6Kc-hX-ycK">
+                                <rect key="frame" x="205" y="346" width="150" height="122"/>
                                 <gestureRecognizers/>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="6lL-gM-mhn" appends="YES" id="wsL-1c-18O"/>
                                 </connections>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="syQ-rX-kl5">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="descarga.png" translatesAutoresizingMaskIntoConstraints="NO" id="syQ-rX-kl5">
                                 <rect key="frame" x="67" y="100.66666666666667" width="241" height="162.33333333333331"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EClass" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t1l-1Z-kvH">
@@ -77,8 +77,8 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Jed-Cg-wKj">
-                                <rect key="frame" x="20" y="488.33333333333331" width="150.33333333333334" height="121.33333333333331"/>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="descarga.png" translatesAutoresizingMaskIntoConstraints="NO" id="Jed-Cg-wKj">
+                                <rect key="frame" x="20" y="488.00000000000006" width="150" height="121.66666666666669"/>
                                 <gestureRecognizers/>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="Bxf-Ou-E2v" appends="YES" id="baR-Yx-FgN"/>
@@ -204,31 +204,31 @@
                                 <exclude reference="ojw-kV-zUB"/>
                                 <exclude reference="9Ov-HF-e4v"/>
                                 <exclude reference="WGs-k6-6PR"/>
-                                <exclude reference="bbv-WX-32o"/>
-                                <exclude reference="fTa-cy-Ykm"/>
-                                <exclude reference="iwF-4H-w55"/>
-                                <exclude reference="jHc-q6-7Ci"/>
-                                <exclude reference="O9f-cy-o8Y"/>
-                                <exclude reference="fCQ-a6-Hah"/>
-                                <exclude reference="4Df-31-eiK"/>
-                                <exclude reference="HW1-8w-7Rg"/>
-                                <exclude reference="JoA-DP-cfx"/>
-                                <exclude reference="PFZ-ur-cI6"/>
-                                <exclude reference="Vdt-8y-yLr"/>
                                 <exclude reference="2gY-Bt-CSJ"/>
                                 <exclude reference="BPl-Hf-EXk"/>
                                 <exclude reference="IiM-XY-fgH"/>
                                 <exclude reference="OBf-KD-vOe"/>
-                                <exclude reference="iyc-Bc-pEB"/>
+                                <exclude reference="O9f-cy-o8Y"/>
+                                <exclude reference="fCQ-a6-Hah"/>
+                                <exclude reference="bbv-WX-32o"/>
+                                <exclude reference="fTa-cy-Ykm"/>
+                                <exclude reference="iwF-4H-w55"/>
+                                <exclude reference="jHc-q6-7Ci"/>
                                 <exclude reference="0QQ-Fq-k90"/>
                                 <exclude reference="HRf-UD-c3h"/>
                                 <exclude reference="Vsd-Uc-jSB"/>
                                 <exclude reference="nvn-H5-Hjl"/>
                                 <exclude reference="sRn-r4-wVv"/>
+                                <exclude reference="4Df-31-eiK"/>
+                                <exclude reference="HW1-8w-7Rg"/>
+                                <exclude reference="JoA-DP-cfx"/>
+                                <exclude reference="PFZ-ur-cI6"/>
+                                <exclude reference="Vdt-8y-yLr"/>
                                 <exclude reference="bX5-ht-nvT"/>
                                 <exclude reference="oHS-q7-9GU"/>
                                 <exclude reference="oX5-JS-xS7"/>
                                 <exclude reference="sT7-g9-9ln"/>
+                                <exclude reference="iyc-Bc-pEB"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=compact">
@@ -253,6 +253,17 @@
                                 <exclude reference="KVk-KB-xN1"/>
                                 <include reference="WGs-k6-6PR"/>
                                 <exclude reference="kZT-AN-Hh8"/>
+                                <include reference="2gY-Bt-CSJ"/>
+                                <exclude reference="6nr-Ct-Uqb"/>
+                                <exclude reference="95o-JB-tYi"/>
+                                <exclude reference="BPl-Hf-EXk"/>
+                                <include reference="IiM-XY-fgH"/>
+                                <include reference="OBf-KD-vOe"/>
+                                <exclude reference="j9J-2L-QnO"/>
+                                <exclude reference="6Cv-MV-zQS"/>
+                                <include reference="O9f-cy-o8Y"/>
+                                <include reference="fCQ-a6-Hah"/>
+                                <exclude reference="l9c-4S-m0i"/>
                                 <exclude reference="8jK-zI-scG"/>
                                 <exclude reference="G0R-TF-CDu"/>
                                 <exclude reference="Ngc-zi-aoC"/>
@@ -261,10 +272,14 @@
                                 <include reference="fTa-cy-Ykm"/>
                                 <include reference="iwF-4H-w55"/>
                                 <include reference="jHc-q6-7Ci"/>
-                                <exclude reference="6Cv-MV-zQS"/>
-                                <include reference="O9f-cy-o8Y"/>
-                                <include reference="fCQ-a6-Hah"/>
-                                <exclude reference="l9c-4S-m0i"/>
+                                <include reference="0QQ-Fq-k90"/>
+                                <include reference="HRf-UD-c3h"/>
+                                <exclude reference="IMh-cW-06k"/>
+                                <exclude reference="K11-PJ-0oR"/>
+                                <exclude reference="Q2H-zo-x37"/>
+                                <include reference="Vsd-Uc-jSB"/>
+                                <exclude reference="nvn-H5-Hjl"/>
+                                <include reference="sRn-r4-wVv"/>
                                 <include reference="4Df-31-eiK"/>
                                 <exclude reference="HW1-8w-7Rg"/>
                                 <exclude reference="IAS-yj-SEH"/>
@@ -274,23 +289,6 @@
                                 <exclude reference="Xs9-fP-lJJ"/>
                                 <exclude reference="buC-NY-qN0"/>
                                 <exclude reference="tTN-ec-wqT"/>
-                                <include reference="2gY-Bt-CSJ"/>
-                                <exclude reference="6nr-Ct-Uqb"/>
-                                <exclude reference="95o-JB-tYi"/>
-                                <exclude reference="BPl-Hf-EXk"/>
-                                <include reference="IiM-XY-fgH"/>
-                                <include reference="OBf-KD-vOe"/>
-                                <exclude reference="j9J-2L-QnO"/>
-                                <exclude reference="czd-Au-wwq"/>
-                                <include reference="iyc-Bc-pEB"/>
-                                <include reference="0QQ-Fq-k90"/>
-                                <include reference="HRf-UD-c3h"/>
-                                <exclude reference="IMh-cW-06k"/>
-                                <exclude reference="K11-PJ-0oR"/>
-                                <exclude reference="Q2H-zo-x37"/>
-                                <include reference="Vsd-Uc-jSB"/>
-                                <exclude reference="nvn-H5-Hjl"/>
-                                <include reference="sRn-r4-wVv"/>
                                 <exclude reference="54h-R5-SB4"/>
                                 <exclude reference="7jz-jg-MCB"/>
                                 <exclude reference="VF5-Vw-eMl"/>
@@ -298,6 +296,8 @@
                                 <include reference="oHS-q7-9GU"/>
                                 <exclude reference="oX5-JS-xS7"/>
                                 <include reference="sT7-g9-9ln"/>
+                                <exclude reference="czd-Au-wwq"/>
+                                <include reference="iyc-Bc-pEB"/>
                             </mask>
                         </variation>
                     </view>
@@ -317,9 +317,9 @@
                         <action selector="DoTapImage1:" destination="BYZ-38-t0r" id="CHA-EL-k21"/>
                     </connections>
                 </tapGestureRecognizer>
-                <tapGestureRecognizer id="6lL-gM-mhn" userLabel="Image2">
+                <tapGestureRecognizer id="N99-5O-etb" userLabel="Image4">
                     <connections>
-                        <action selector="DoTapImage2:" destination="BYZ-38-t0r" id="bcC-3m-nYw"/>
+                        <action selector="DoTapImage4:" destination="BYZ-38-t0r" id="EUz-g9-jzC"/>
                     </connections>
                 </tapGestureRecognizer>
                 <tapGestureRecognizer id="Bxf-Ou-E2v" userLabel="Image3">
@@ -327,13 +327,16 @@
                         <action selector="DoTapImage3:" destination="BYZ-38-t0r" id="J7Z-Tk-ZNz"/>
                     </connections>
                 </tapGestureRecognizer>
-                <tapGestureRecognizer id="N99-5O-etb" userLabel="Image4">
+                <tapGestureRecognizer id="6lL-gM-mhn" userLabel="Image2">
                     <connections>
-                        <action selector="DoTapImage4:" destination="BYZ-38-t0r" id="EUz-g9-jzC"/>
+                        <action selector="DoTapImage2:" destination="BYZ-38-t0r" id="bcC-3m-nYw"/>
                     </connections>
                 </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="117.59999999999999" y="118.96551724137932"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="descarga.png" width="305" height="165"/>
+    </resources>
 </document>
